@@ -268,3 +268,4 @@ Received Import Request.
 Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm using Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e0da9209daf9424073bc142ad5428f') in 0.070189 seconds 
   Import took 0.072776 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
