@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] GameObject enemyExplosionVFX;
+    [SerializeField] GameObject enemyExplosionFX; // handles both SFX and VFX
     [SerializeField] GameObject hitVFX;
     [SerializeField] int scorePerHit = 10;
     [SerializeField] int hitPoints = 2;
@@ -50,8 +50,8 @@ public class Enemy : MonoBehaviour
         if(hitPoints == 0)
         {
             scoreBoard.IncreaseScore(scorePerHit);
-            GameObject vfx = Instantiate(enemyExplosionVFX, transform.position, Quaternion.identity);
-            vfx.transform.parent = parentGameObject.transform;
+            GameObject fx = Instantiate(enemyExplosionFX, transform.position, Quaternion.identity);
+            fx.transform.parent = parentGameObject.transform;
             Destroy(gameObject);
         }
     }
