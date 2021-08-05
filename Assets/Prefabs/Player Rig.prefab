@@ -204,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6024230665060499203, guid: 162ff847df4b68d46b48663653d73f4c, type: 3}
       propertyPath: m_Name
-      value: Explosion VFX
+      value: Player Explosion VFX
       objectReference: {fileID: 0}
     - target: {fileID: 6616179605315867154, guid: 162ff847df4b68d46b48663653d73f4c, type: 3}
       propertyPath: playOnAwake

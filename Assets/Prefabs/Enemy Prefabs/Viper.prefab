@@ -308,9 +308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyExplosionVFX: {fileID: 6024230665060499203, guid: abc1a4558471e7543848fe4c620a222f, type: 3}
   hitVFX: {fileID: 6024230665060499203, guid: e57da596c4c94774885262f7b2a30257, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 10
-  hitPoints: 2
+  hitPoints: 1
 --- !u!1 &1139087312896558651
 GameObject:
   m_ObjectHideFlags: 0
